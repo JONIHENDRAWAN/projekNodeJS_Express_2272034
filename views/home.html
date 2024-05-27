@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Node.js Sample Page</title>
+    <style>
+        *{
+            font-family: 'Impact', fantasy;        
+        }
+        
+        body {
+            margin: 0;
+        }
+        
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 150px;
+            background-color: #555;
+            position: fixed;
+            height: 100%;
+            overflow: auto;
+        }
+        
+        li a {
+            display: block;
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            text-align: center;
+            font-size: 18px;
+        }
+                
+        li a:hover:not(.active) {  
+            background-color: #f1f1f1;
+            color: #000000;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        .header{
+            position: relative;
+            padding:1px;
+            margin-right: 20px;
+            margin-left: 11%;
+            background-color: #f1f1f1;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            border: 8px solid black;
+
+        }
+
+        .sidebar{
+            margin-top: 0;
+        }
+        .space1{
+            height: 70px;
+            background-color: #04AA6D;
+            border-radius: 20px;
+            margin-top: 30px;
+        }
+
+        .space2{
+            margin-top: 40px;
+        }
+
+        .p{
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- NAVBAR  -->
+    <nav>
+        <ul>
+            <div class="space1"><p class="p" style="font-size: 26px; font-weight: bold;">P W L</p></div>
+            <li class="space2"><a href="/">Home</a></li>
+            <li><a href="/page1">Input Name</a></li>
+        </ul>
+    </nav>
+    <br>
+    <div class="header">
+        <h1 style="text-align: center;">Home Page</h1>
+    </div>
+</body>
+</html>
